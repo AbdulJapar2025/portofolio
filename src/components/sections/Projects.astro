@@ -1,7 +1,8 @@
 ---
 const project = {
   title: 'SIAKAD - Sistem Informasi Akademik',
-  description: 'Sistem informasi akademik untuk sekolah tinggi yang fokus pada permasalahan transparansi data dan integrasi sistem, meliputi manajemen mahasiswa, dosen, mata kuliah, jadwal, KRS, KHS, nilai, presensi, materi, tagihan & pembayaran (integrasi Midtrans), serta integrasi LMS/ELMA (Moodle).',
+  problem: 'Manajemen akademik yang masih manual menyebabkan ketidaktepatan data, keterlambatan informasi, dan kurangnya transparansi antara mahasiswa, dosen, dan pihak kampus. Selain itu, tidak adanya integrasi antar sistem mempersulit proses akademik seperti pembayaran, penilaian, dan pengelolaan materi perkuliahan.',
+  solution: 'Mengembangkan Sistem Informasi Akademik berbasis web yang terintegrasi, mencakup manajemen mahasiswa, dosen, mata kuliah, jadwal, KRS, KHS, nilai, presensi, materi, tagihan & pembayaran (integrasi Midtrans), serta integrasi LMS/ELMA (Moodle) untuk meningkatkan transparansi dan efisiensi proses akademik.',
   tech: ['PHP', 'MySQL', 'Docker', 'Tailwind CSS', 'TailAdmin', 'Alpine.js', 'Midtrans', 'Moodle'],
   github: 'https://github.com/AbdulJapar2025/siakad',
   demo: '#',
@@ -23,7 +24,18 @@ const project = {
 
       <!-- Content -->
       <h3 class="font-bold mb-2 group-hover:text-primary transition-colors">{project.title}</h3>
-      <p class="text-sm text-muted-foreground leading-relaxed mb-4">{project.description}</p>
+      
+      <!-- Problem -->
+      <div class="mb-3">
+        <p class="text-xs text-primary font-semibold mb-1">Permasalahan</p>
+        <p class="text-sm text-muted-foreground leading-relaxed">{project.problem}</p>
+      </div>
+      
+      <!-- Solution -->
+      <div class="mb-4">
+        <p class="text-xs text-primary font-semibold mb-1">Solusi</p>
+        <p class="text-sm text-muted-foreground leading-relaxed">{project.solution}</p>
+      </div>
 
       <!-- Tech Stack -->
       <div class="flex flex-wrap gap-2 mb-5">
