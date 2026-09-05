@@ -1,43 +1,25 @@
-# Astro Starter Kit: Minimal
+# Portfolio — Abdul Japar Sidik
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Personal portfolio yang menampilkan proyek dan kontribusi saya sebagai pengembang di bidang teknologi web.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+🌐 **Live**: [abduljapar2025.github.io/portofolio](https://abduljapar2025.github.io/portofolio/)
 
-## 🚀 Project Structure
+## Tentang
 
-Inside of your Astro project, you'll see the following folders and files:
+Saya adalah lulusan Teknik Informatika dengan semangat memecahkan masalah melalui teknologi. Setiap proyek yang saya kerjakan berawal dari permasalahan nyata — mulai dari transparansi data akademik hingga efisiensi rekrutmen kampus.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Project
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### STTI Career — Platform Rekrutmen Alumni & Industri
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Platform fullstack yang menjembatani kemitraan industri dan kampus, mempermudah industri mengelola pipeline rekrutmen sekaligus membantu alumni mengakses lowongan kerja secara terstruktur.
 
-Any static assets, like images, can be placed in the `public/` directory.
+### SIAKAD — Sistem Informasi Akademik
 
-## 🧞 Commands
+Sistem informasi akademik berbasis web yang mengatasi permasalahan ketidakefisienan dan transparansi pada sistem lama, dengan integrasi Midtrans dan Moodle.
 
-All commands are run from the root of the project, from a terminal:
+## Contact
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- 📧 abduljapar84@gmail.com
+- 🔗 [LinkedIn](https://www.linkedin.com/in/abdul-japar-sidik/)
+- 💻 [GitHub](https://github.com/AbdulJapar2025)
