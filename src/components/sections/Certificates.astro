@@ -1,0 +1,61 @@
+---
+const sertifikat = [
+  {
+    title: 'Belajar Membuat Aplikasi Web dengan PHP dan MySQL',
+    issuer: 'Dicoding Indonesia',
+    date: '2024',
+    file: '/images/sertifikat-dicoding.png',
+    type: 'image',
+  },
+  {
+    title: 'Problem Solving (Basic)',
+    issuer: 'HackerRank',
+    date: '2024',
+    file: '/images/sertifikat-hackerrank.pdf',
+    type: 'pdf',
+  },
+];
+---
+
+<section id="sertifikat" class="py-20">
+  <div class="container mx-auto px-6 max-w-5xl">
+    <p class="text-sm text-primary font-semibold mb-3">Sertifikasi</p>
+    <h2 class="text-2xl md:text-3xl font-bold mb-10">Sertifikat</h2>
+
+    <div class="grid sm:grid-cols-2 gap-5 max-w-2xl">
+      {sertifikat.map((cert) => (
+        <div class="p-5 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-sm transition-all duration-200">
+          <!-- Thumbnail -->
+          <a href={cert.file} target="_blank" rel="noopener noreferrer" class="block w-full h-36 rounded-lg bg-secondary border border-border mb-4 flex items-center justify-center overflow-hidden hover:opacity-80 transition-opacity">
+            {cert.type === 'pdf' ? (
+              <div class="text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-muted-foreground/40 mx-auto mb-1">
+                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                <p class="text-[10px] text-muted-foreground/50 font-mono">PDF</p>
+              </div>
+            ) : (
+              <div class="text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-muted-foreground/40 mx-auto mb-1">
+                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect>
+                  <circle cx="9" cy="9" r="2"></circle>
+                  <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path>
+                </svg>
+                <p class="text-[10px] text-muted-foreground/50 font-mono">IMG</p>
+              </div>
+            )}
+          </a>
+
+          <!-- Content -->
+          <h3 class="font-bold text-sm mb-1.5">{cert.title}</h3>
+          <div class="flex items-center gap-2 text-xs text-muted-foreground">
+            <span>{cert.issuer}</span>
+            <span>·</span>
+            <span>{cert.date}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

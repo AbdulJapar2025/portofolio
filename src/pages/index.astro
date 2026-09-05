@@ -1,0 +1,22 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import Hero from '@/components/sections/Hero.astro';
+import About from '@/components/sections/About.astro';
+import Projects from '@/components/sections/Projects.astro';
+import Certificates from '@/components/sections/Certificates.astro';
+import Contact from '@/components/sections/Contact.astro';
+---
+
+<BaseLayout title="Portfolio - Web Developer">
+  <Header />
+  <main>
+    <Hero />
+    <About />
+    <Projects />
+    <Certificates />
+    <Contact />
+  </main>
+  <Footer />
+</BaseLayout>
