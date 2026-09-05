@@ -1,8 +1,7 @@
 ---
 const project = {
   title: 'SIAKAD - Sistem Informasi Akademik',
-  problem: 'Manajemen akademik yang masih manual menyebabkan ketidaktepatan data, keterlambatan informasi, dan kurangnya transparansi antara mahasiswa, dosen, dan pihak kampus. Selain itu, tidak adanya integrasi antar sistem mempersulit proses akademik seperti pembayaran, penilaian, dan pengelolaan materi perkuliahan.',
-  solution: 'Mengembangkan Sistem Informasi Akademik berbasis web yang terintegrasi, mencakup manajemen mahasiswa, dosen, mata kuliah, jadwal, KRS, KHS, nilai, presensi, materi, tagihan & pembayaran (integrasi Midtrans), serta integrasi LMS/ELMA (Moodle) untuk meningkatkan transparansi dan efisiensi proses akademik.',
+  description: 'Mengatasi permasalahan ketidakefisienan dan mininya transparansi pada sistem akademik lama dengan membangun SIAKAD berbasis web yang modern dan terintegrasi. Proyek ini mencakup pengelolaan data utama (nilai, presensi, keuangan dan lainnya), penyederhanaan alur KRS/KHS, serta integrasi end-to-end dengan Midtrans untuk transparansi pembayaran dan Moodle (LMS/ELMA) untuk proses pembelajaran yang terpusat.',
   tech: ['PHP', 'MySQL', 'Docker', 'Tailwind CSS', 'TailAdmin', 'Alpine.js', 'Midtrans', 'Moodle'],
   github: 'https://github.com/AbdulJapar2025/siakad',
   demo: '#',
@@ -24,18 +23,7 @@ const project = {
 
       <!-- Content -->
       <h3 class="font-bold mb-2 group-hover:text-primary transition-colors">{project.title}</h3>
-      
-      <!-- Problem -->
-      <div class="mb-3">
-        <p class="text-xs text-primary font-semibold mb-1">Permasalahan</p>
-        <p class="text-sm text-muted-foreground leading-relaxed">{project.problem}</p>
-      </div>
-      
-      <!-- Solution -->
-      <div class="mb-4">
-        <p class="text-xs text-primary font-semibold mb-1">Solusi</p>
-        <p class="text-sm text-muted-foreground leading-relaxed">{project.solution}</p>
-      </div>
+      <p class="text-sm text-muted-foreground leading-relaxed mb-4">{project.description}</p>
 
       <!-- Tech Stack -->
       <div class="flex flex-wrap gap-2 mb-5">
