@@ -1,1 +1,739 @@
-<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8"><meta name="description" content="Web Developer - Portfolio"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v7.3.1"><title>Portfolio - Web Developer</title><meta property="og:title" content="Portfolio - Web Developer"><meta property="og:description" content="Web Developer - Portfolio"><meta property="og:type" content="website"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/portfolio/_astro/index.BViWdcvS.css"></head><body class="min-h-screen bg-background text-foreground antialiased"><header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"><nav class="container mx-auto px-6 h-16 flex items-center justify-between max-w-5xl"><a href="/" class="text-lg font-bold tracking-tight text-foreground">ananda<span class="text-primary">.</span></a><!-- Desktop Navigation --><ul class="hidden md:flex items-center gap-1"><li><a href="#beranda" class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted">Beranda</a></li><li><a href="#tentang" class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted">Tentang</a></li><li><a href="#portfolio" class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted">Portfolio</a></li><li><a href="#sertifikat" class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted">Sertifikat</a></li><li><a href="#kontak" class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted">Kontak</a></li></ul><!-- Mobile Menu Button --><button id="mobile-menu-btn" class="md:hidden p-2 text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-muted" aria-label="Toggle menu"><svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg><svg id="menu-icon-close" class="hidden" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button></nav><!-- Mobile Navigation --><div id="mobile-menu" class="hidden md:hidden bg-background border-b border-border"><ul class="container mx-auto px-6 py-4 flex flex-col gap-1"><li><a href="#beranda" class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted">Beranda</a></li><li><a href="#tentang" class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted">Tentang</a></li><li><a href="#portfolio" class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted">Portfolio</a></li><li><a href="#sertifikat" class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted">Sertifikat</a></li><li><a href="#kontak" class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted">Kontak</a></li></ul></div></header><script type="module">var e=document.getElementById(`main-header`),t=document.getElementById(`mobile-menu-btn`),n=document.getElementById(`mobile-menu`),r=document.getElementById(`menu-icon-open`),i=document.getElementById(`menu-icon-close`);window.addEventListener(`scroll`,()=>{window.scrollY>50?e?.classList.add(`bg-background/80`,`backdrop-blur-md`,`border-b`,`border-border`):e?.classList.remove(`bg-background/80`,`backdrop-blur-md`,`border-b`,`border-border`)}),t?.addEventListener(`click`,()=>{n?.classList.toggle(`hidden`),r?.classList.toggle(`hidden`),i?.classList.toggle(`hidden`)}),n?.querySelectorAll(`a`).forEach(e=>{e.addEventListener(`click`,()=>{n?.classList.add(`hidden`),r?.classList.remove(`hidden`),i?.classList.add(`hidden`)})});var a=document.querySelectorAll(`section[id]`),o=document.querySelectorAll(`.nav-link`);window.addEventListener(`scroll`,()=>{let e=``;a.forEach(t=>{let n=t.offsetTop-100;window.scrollY>=n&&(e=t.getAttribute(`id`)||``)}),o.forEach(t=>{t.classList.remove(`text-foreground`,`bg-muted`),t.classList.add(`text-muted-foreground`),t.getAttribute(`href`)===`#${e}`&&(t.classList.remove(`text-muted-foreground`),t.classList.add(`text-foreground`,`bg-muted`))})});</script><main><section id="beranda" class="min-h-screen flex items-center pt-16"><div class="container mx-auto px-6 max-w-5xl"><div class="grid md:grid-cols-2 gap-12 items-center"><!-- Left Content --><div><p class="text-sm text-muted-foreground mb-4 font-medium">Halo Semua, Saya</p><h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight tracking-tight">Abdul Japar</h1><p class="text-xl text-muted-foreground mb-6 font-light">Web Developer</p><p class="text-muted-foreground leading-relaxed mb-8 max-w-md">Portofolio ini menampilkan proyek dan kontribusi saya sebagai pengembang di bidang teknologi web.</p><div class="flex items-center gap-3"><a href="#kontak"><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-10 rounded-md px-8">Hubungi Saya</button></a><a href="#portfolio"><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-10 rounded-md px-8">Lihat Portfolio</button></a></div><!-- Social Links --><div class="flex items-center gap-3 mt-8"><a href="https://github.com/AbdulJapar2025" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-lg bg-card border border-border text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-lg bg-card border border-border text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="mailto:your@email.com" class="p-2.5 rounded-lg bg-card border border-border text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a></div></div><!-- Right Visual --><div class="hidden md:flex justify-center"><div class="relative"><div class="w-72 h-72 lg:w-80 lg:h-80 rounded-2xl bg-card border border-border overflow-hidden flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="text-border"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></div><div class="absolute -bottom-3 -right-3 w-24 h-24 rounded-xl border-2 border-dashed border-border -z-10"></div></div></div></div></div></section><section id="tentang" class="py-20"><div class="container mx-auto px-6 max-w-5xl"><p class="text-sm text-primary font-semibold mb-3">Tentang Saya</p><h2 class="text-2xl md:text-3xl font-bold mb-10">Profil Singkat</h2><div class="grid md:grid-cols-5 gap-10"><!-- Bio - takes more space --><div class="md:col-span-3 space-y-4"><p class="text-muted-foreground leading-relaxed">Saya adalah lulusan <strong class="text-foreground">Teknik Informatika</strong> yang tertarik pada pengembangan web, sistem informasi, basis data, dan teknologi.</p><p class="text-muted-foreground leading-relaxed">Selama perkuliahan, saya mengerjakan berbagai proyek akademik dan pribadi yang membantu saya memahami proses pengembangan perangkat lunak, mulai dari analisis kebutuhan, perancangan sistem, pengembangan aplikasi, hingga pengujian.</p><p class="text-muted-foreground leading-relaxed">Saya terus mengembangkan keterampilan teknis dan pemecahan masalah sambil mengeksplorasi berbagai bidang di bidang Teknologi Informasi. Saat ini saya terbuka untuk peluang kerja tingkat pemula di mana saya dapat terus belajar, berkembang secara profesional, dan memberikan kontribusi kepada tim.</p></div><!-- Quick Info --><div class="md:col-span-2 space-y-4"><div class="p-4 rounded-xl bg-card border border-border"><p class="text-xs text-muted-foreground mb-1">Lokasi</p><p class="text-sm font-medium">Indonesia</p></div><div class="p-4 rounded-xl bg-card border border-border"><p class="text-xs text-muted-foreground mb-1">Fokus Utama</p><p class="text-sm font-medium">Web Application Development</p><p class="text-sm font-medium">Data Analiyst</p></div></div></div></div></section><section id="portfolio" class="py-20"><div class="container mx-auto px-6 max-w-5xl"><p class="text-sm text-primary font-semibold mb-3">Portfolio</p><h2 class="text-2xl md:text-3xl font-bold mb-10">Project</h2><div class="group p-5 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-sm transition-all duration-200 max-w-md"><!-- Thumbnail --><img src="/images/project-placeholder.png" alt="SIAKAD - Sistem Informasi Akademik" class="w-full h-36 object-cover rounded-lg mb-4"><!-- Content --><h3 class="font-bold mb-2 group-hover:text-primary transition-colors">SIAKAD - Sistem Informasi Akademik</h3><p class="text-sm text-muted-foreground leading-relaxed mb-4">Sistem informasi akademik lengkap untuk sekolah tinggi dengan fitur manajemen mahasiswa, dosen, mata kuliah, jadwal, KRS, KHS, nilai, presensi, materi, tagihan &amp; pembayaran (integrasi Midtrans), serta integrasi LMS/ELMA (Moodle).</p><!-- Tech Stack --><div class="flex flex-wrap gap-2 mb-5"><span class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground">PHP</span><span class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground">MySQL</span><span class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground">Docker</span><span class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground">Tailwind CSS</span><span class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground">TailAdmin</span><span class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground">Alpine.js</span><span class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground">Midtrans</span><span class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground">Moodle</span></div><!-- Links --><div class="flex items-center gap-4 text-sm"><a href="https://github.com/AbdulJapar2025/siakad" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>Source Code</a><a href="#" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" x2="21" y1="14" y2="3"></line></svg>Live Demo</a></div></div></div></section><section id="sertifikat" class="py-20"><div class="container mx-auto px-6 max-w-5xl"><p class="text-sm text-primary font-semibold mb-3">Sertifikasi</p><h2 class="text-2xl md:text-3xl font-bold mb-10">Sertifikat</h2><div class="grid sm:grid-cols-2 gap-5 max-w-2xl"><div class="p-5 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-sm transition-all duration-200"><!-- Thumbnail --><a href="/images/sertifikat-dicoding.png" target="_blank" rel="noopener noreferrer" class="block w-full h-36 rounded-lg bg-secondary border border-border mb-4 flex items-center justify-center overflow-hidden hover:opacity-80 transition-opacity"><div class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-muted-foreground/40 mx-auto mb-1"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect><circle cx="9" cy="9" r="2"></circle><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path></svg><p class="text-[10px] text-muted-foreground/50 font-mono">IMG</p></div></a><!-- Content --><h3 class="font-bold text-sm mb-1.5">Belajar Membuat Aplikasi Web dengan PHP dan MySQL</h3><div class="flex items-center gap-2 text-xs text-muted-foreground"><span>Dicoding Indonesia</span><span>·</span><span>2024</span></div></div><div class="p-5 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-sm transition-all duration-200"><!-- Thumbnail --><a href="/images/sertifikat-hackerrank.pdf" target="_blank" rel="noopener noreferrer" class="block w-full h-36 rounded-lg bg-secondary border border-border mb-4 flex items-center justify-center overflow-hidden hover:opacity-80 transition-opacity"><div class="text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-muted-foreground/40 mx-auto mb-1"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline></svg><p class="text-[10px] text-muted-foreground/50 font-mono">PDF</p></div></a><!-- Content --><h3 class="font-bold text-sm mb-1.5">Problem Solving (Basic)</h3><div class="flex items-center gap-2 text-xs text-muted-foreground"><span>HackerRank</span><span>·</span><span>2024</span></div></div></div></div></section><section id="kontak" class="py-20"><div class="container mx-auto px-6 max-w-5xl"><div class="max-w-xl mx-auto text-center"><p class="text-sm text-primary font-semibold mb-3">Kontak</p><h2 class="text-2xl md:text-3xl font-bold mb-4">Mari Terhubung</h2><p class="text-muted-foreground mb-8">Saya selalu terbuka untuk kolaborasi, diskusi proyek, atau peluang profesional baru.</p><div class="flex flex-wrap justify-center gap-3"><a href="mailto:your@email.com" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>Email</a><a href="https://github.com/AbdulJapar2025" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>GitHub</a><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>LinkedIn</a><a href="https://wa.me/62xxxxxxxxxxx" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>WhatsApp</a></div></div></div></section></main><footer class="border-t border-border"><div class="container mx-auto px-6 py-8 max-w-5xl"><div class="flex flex-col md:flex-row items-center justify-between gap-4"><div class="text-sm text-muted-foreground">&copy; 2026 Abdul Japar. All rights reserved.</div><div class="flex items-center gap-1"><a href="https://github.com/AbdulJapar2025" target="_blank" rel="noopener noreferrer" class="p-2 text-muted-foreground hover:text-primary transition-colors" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="p-2 text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="mailto:your@email.com" class="p-2 text-muted-foreground hover:text-primary transition-colors" aria-label="Email"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a></div></div></div></footer></body></html>
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web Developer - Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content="Astro v7.3.1" />
+    <title>Portfolio - Web Developer</title>
+    <meta property="og:title" content="Portfolio - Web Developer" />
+    <meta property="og:description" content="Web Developer - Portfolio" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/portfolio/_astro/index.BViWdcvS.css" />
+  </head>
+  <body class="min-h-screen bg-background text-foreground antialiased">
+    <header
+      id="main-header"
+      class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+    >
+      <nav
+        class="container mx-auto px-6 h-16 flex items-center justify-between max-w-5xl"
+      >
+        <a href="/" class="text-lg font-bold tracking-tight text-foreground"
+          >ananda<span class="text-primary">.</span></a
+        ><!-- Desktop Navigation -->
+        <ul class="hidden md:flex items-center gap-1">
+          <li>
+            <a
+              href="#beranda"
+              class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted"
+              >Beranda</a
+            >
+          </li>
+          <li>
+            <a
+              href="#tentang"
+              class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted"
+              >Tentang</a
+            >
+          </li>
+          <li>
+            <a
+              href="#portfolio"
+              class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="#sertifikat"
+              class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted"
+              >Sertifikat</a
+            >
+          </li>
+          <li>
+            <a
+              href="#kontak"
+              class="nav-link px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 rounded-lg hover:bg-muted"
+              >Kontak</a
+            >
+          </li>
+        </ul>
+        <!-- Mobile Menu Button --><button
+          id="mobile-menu-btn"
+          class="md:hidden p-2 text-muted-foreground hover:text-foreground transition-colors rounded-lg hover:bg-muted"
+          aria-label="Toggle menu"
+        >
+          <svg
+            id="menu-icon-open"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line></svg
+          ><svg
+            id="menu-icon-close"
+            class="hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+      </nav>
+      <!-- Mobile Navigation -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-background border-b border-border"
+      >
+        <ul class="container mx-auto px-6 py-4 flex flex-col gap-1">
+          <li>
+            <a
+              href="#beranda"
+              class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted"
+              >Beranda</a
+            >
+          </li>
+          <li>
+            <a
+              href="#tentang"
+              class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted"
+              >Tentang</a
+            >
+          </li>
+          <li>
+            <a
+              href="#portfolio"
+              class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="#sertifikat"
+              class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted"
+              >Sertifikat</a
+            >
+          </li>
+          <li>
+            <a
+              href="#kontak"
+              class="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200 block py-3 px-4 rounded-lg hover:bg-muted"
+              >Kontak</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <script type="module">
+      var e = document.getElementById(`main-header`),
+        t = document.getElementById(`mobile-menu-btn`),
+        n = document.getElementById(`mobile-menu`),
+        r = document.getElementById(`menu-icon-open`),
+        i = document.getElementById(`menu-icon-close`);
+      (window.addEventListener(`scroll`, () => {
+        window.scrollY > 50
+          ? e?.classList.add(
+              `bg-background/80`,
+              `backdrop-blur-md`,
+              `border-b`,
+              `border-border`,
+            )
+          : e?.classList.remove(
+              `bg-background/80`,
+              `backdrop-blur-md`,
+              `border-b`,
+              `border-border`,
+            );
+      }),
+        t?.addEventListener(`click`, () => {
+          (n?.classList.toggle(`hidden`),
+            r?.classList.toggle(`hidden`),
+            i?.classList.toggle(`hidden`));
+        }),
+        n?.querySelectorAll(`a`).forEach((e) => {
+          e.addEventListener(`click`, () => {
+            (n?.classList.add(`hidden`),
+              r?.classList.remove(`hidden`),
+              i?.classList.add(`hidden`));
+          });
+        }));
+      var a = document.querySelectorAll(`section[id]`),
+        o = document.querySelectorAll(`.nav-link`);
+      window.addEventListener(`scroll`, () => {
+        let e = ``;
+        (a.forEach((t) => {
+          let n = t.offsetTop - 100;
+          window.scrollY >= n && (e = t.getAttribute(`id`) || ``);
+        }),
+          o.forEach((t) => {
+            (t.classList.remove(`text-foreground`, `bg-muted`),
+              t.classList.add(`text-muted-foreground`),
+              t.getAttribute(`href`) === `#${e}` &&
+                (t.classList.remove(`text-muted-foreground`),
+                t.classList.add(`text-foreground`, `bg-muted`)));
+          }));
+      });
+    </script>
+    <main>
+      <section id="beranda" class="min-h-screen flex items-center pt-16">
+        <div class="container mx-auto px-6 max-w-5xl">
+          <div class="grid md:grid-cols-2 gap-12 items-center">
+            <!-- Left Content -->
+            <div>
+              <p class="text-sm text-muted-foreground mb-4 font-medium">
+                Halo Semua, Saya
+              </p>
+              <h1
+                class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight tracking-tight"
+              >
+                Abdul Japar
+              </h1>
+              <p class="text-xl text-muted-foreground mb-6 font-light">
+                Web Developer
+              </p>
+              <p class="text-muted-foreground leading-relaxed mb-8 max-w-md">
+                Portofolio ini menampilkan proyek dan kontribusi saya sebagai
+                pengembang di bidang teknologi web.
+              </p>
+              <div class="flex items-center gap-3">
+                <a href="#kontak"
+                  ><button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-10 rounded-md px-8"
+                  >
+                    Hubungi Saya
+                  </button></a
+                ><a href="#portfolio"
+                  ><button
+                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-10 rounded-md px-8"
+                  >
+                    Lihat Portfolio
+                  </button></a
+                >
+              </div>
+              <!-- Social Links -->
+              <div class="flex items-center gap-3 mt-8">
+                <a
+                  href="https://github.com/AbdulJapar2025"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="p-2.5 rounded-lg bg-card border border-border text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                    ></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a
+                ><a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="p-2.5 rounded-lg bg-card border border-border text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                    ></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle></svg></a
+                ><a
+                  href="mailto:your@email.com"
+                  class="p-2.5 rounded-lg bg-card border border-border text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path
+                      d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                    ></path></svg
+                ></a>
+              </div>
+            </div>
+            <!-- Right Visual -->
+            <div class="hidden md:flex justify-center">
+              <div class="relative">
+                <div
+                  class="w-72 h-72 lg:w-80 lg:h-80 rounded-2xl bg-card border border-border overflow-hidden flex items-center justify-center"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="120"
+                    height="120"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="text-border"
+                  >
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div
+                  class="absolute -bottom-3 -right-3 w-24 h-24 rounded-xl border-2 border-dashed border-border -z-10"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="tentang" class="py-20">
+        <div class="container mx-auto px-6 max-w-5xl">
+          <p class="text-sm text-primary font-semibold mb-3">Tentang Saya</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-10">Singkat</h2>
+          <div class="grid md:grid-cols-5 gap-10">
+            <!-- Bio - takes more space -->
+            <div class="md:col-span-3 space-y-4">
+              <p class="text-muted-foreground leading-relaxed">
+                Saya adalah lulusan
+                <strong class="text-foreground">Teknik Informatika</strong> yang
+                tertarik pada pengembangan web, sistem informasi, basis data,
+                dan teknologi.
+              </p>
+              <p class="text-muted-foreground leading-relaxed">
+                Selama perkuliahan, saya mengerjakan berbagai proyek akademik
+                dan pribadi yang membantu saya memahami proses pengembangan
+                perangkat lunak, mulai dari analisis kebutuhan, perancangan
+                sistem, pengembangan aplikasi, hingga pengujian.
+              </p>
+              <p class="text-muted-foreground leading-relaxed">
+                Saya terus mengembangkan keterampilan teknis dan pemecahan
+                masalah sambil mengeksplorasi berbagai bidang di bidang
+                Teknologi Informasi. Saat ini saya terbuka untuk peluang kerja
+                tingkat pemula di mana saya dapat terus belajar, berkembang
+                secara profesional, dan memberikan kontribusi kepada tim.
+              </p>
+            </div>
+            <!-- Quick Info -->
+            <div class="md:col-span-2 space-y-4">
+              <div class="p-4 rounded-xl bg-card border border-border">
+                <p class="text-xs text-muted-foreground mb-1">Lokasi</p>
+                <p class="text-sm font-medium">Indonesia</p>
+              </div>
+              <div class="p-4 rounded-xl bg-card border border-border">
+                <p class="text-xs text-muted-foreground mb-1">Fokus Utama</p>
+                <p class="text-sm font-medium">Web Application Development</p>
+                <p class="text-sm font-medium">Data Analiyst</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="py-20">
+        <div class="container mx-auto px-6 max-w-5xl">
+          <p class="text-sm text-primary font-semibold mb-3">Portfolio</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-10">Project</h2>
+          <div
+            class="group p-5 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-sm transition-all duration-200 max-w-md"
+          >
+            <!-- Thumbnail --><img
+              src="/images/project-placeholder.png"
+              alt="SIAKAD - Sistem Informasi Akademik"
+              class="w-full h-36 object-cover rounded-lg mb-4"
+            /><!-- Content -->
+            <h3
+              class="font-bold mb-2 group-hover:text-primary transition-colors"
+            >
+              SIAKAD - Sistem Informasi Akademik
+            </h3>
+            <p class="text-sm text-muted-foreground leading-relaxed mb-4">
+              Sistem informasi akademik lengkap untuk sekolah tinggi dengan
+              fitur manajemen mahasiswa, dosen, mata kuliah, jadwal, KRS, KHS,
+              nilai, presensi, materi, tagihan &amp; pembayaran (integrasi
+              Midtrans), serta integrasi LMS/ELMA (Moodle).
+            </p>
+            <!-- Tech Stack -->
+            <div class="flex flex-wrap gap-2 mb-5">
+              <span
+                class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground"
+                >PHP</span
+              ><span
+                class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground"
+                >MySQL</span
+              ><span
+                class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground"
+                >Docker</span
+              ><span
+                class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground"
+                >Tailwind CSS</span
+              ><span
+                class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground"
+                >TailAdmin</span
+              ><span
+                class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground"
+                >Alpine.js</span
+              ><span
+                class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground"
+                >Midtrans</span
+              ><span
+                class="px-3 py-1.5 rounded-lg border border-border text-sm text-muted-foreground"
+                >Moodle</span
+              >
+            </div>
+            <!-- Links -->
+            <div class="flex items-center gap-4 text-sm">
+              <a
+                href="https://github.com/AbdulJapar2025/siakad"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                  ></path>
+                  <path d="M9 18c-4.51 2-5-2-7-2"></path></svg
+                >Source Code</a
+              ><a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-muted-foreground hover:text-primary transition-colors flex items-center gap-1.5"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  ></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" x2="21" y1="14" y2="3"></line></svg
+                >Live Demo</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sertifikat" class="py-20">
+        <div class="container mx-auto px-6 max-w-5xl">
+          <p class="text-sm text-primary font-semibold mb-3">Sertifikasi</p>
+          <h2 class="text-2xl md:text-3xl font-bold mb-10">Sertifikat</h2>
+          <div class="grid sm:grid-cols-2 gap-5 max-w-2xl">
+            <div
+              class="p-5 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-sm transition-all duration-200"
+            >
+              <!-- Thumbnail --><a
+                href="/images/sertifikat-dicoding.png"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block w-full h-36 rounded-lg bg-secondary border border-border mb-4 flex items-center justify-center overflow-hidden hover:opacity-80 transition-opacity"
+                ><div class="text-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="text-muted-foreground/40 mx-auto mb-1"
+                  >
+                    <rect
+                      width="18"
+                      height="18"
+                      x="3"
+                      y="3"
+                      rx="2"
+                      ry="2"
+                    ></rect>
+                    <circle cx="9" cy="9" r="2"></circle>
+                    <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path>
+                  </svg>
+                  <p class="text-[10px] text-muted-foreground/50 font-mono">
+                    IMG
+                  </p>
+                </div></a
+              ><!-- Content -->
+              <h3 class="font-bold text-sm mb-1.5">
+                Belajar Membuat Aplikasi Web dengan PHP dan MySQL
+              </h3>
+              <div
+                class="flex items-center gap-2 text-xs text-muted-foreground"
+              >
+                <span>Dicoding Indonesia</span><span>·</span><span>2024</span>
+              </div>
+            </div>
+            <div
+              class="p-5 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-sm transition-all duration-200"
+            >
+              <!-- Thumbnail --><a
+                href="/images/sertifikat-hackerrank.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block w-full h-36 rounded-lg bg-secondary border border-border mb-4 flex items-center justify-center overflow-hidden hover:opacity-80 transition-opacity"
+                ><div class="text-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="text-muted-foreground/40 mx-auto mb-1"
+                  >
+                    <path
+                      d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"
+                    ></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                  </svg>
+                  <p class="text-[10px] text-muted-foreground/50 font-mono">
+                    PDF
+                  </p>
+                </div></a
+              ><!-- Content -->
+              <h3 class="font-bold text-sm mb-1.5">Problem Solving (Basic)</h3>
+              <div
+                class="flex items-center gap-2 text-xs text-muted-foreground"
+              >
+                <span>HackerRank</span><span>·</span><span>2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="kontak" class="py-20">
+        <div class="container mx-auto px-6 max-w-5xl">
+          <div class="max-w-xl mx-auto text-center">
+            <p class="text-sm text-primary font-semibold mb-3">Kontak</p>
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">Mari Terhubung</h2>
+            <p class="text-muted-foreground mb-8">
+              Saya selalu terbuka untuk kolaborasi, diskusi proyek, atau peluang
+              profesional baru.
+            </p>
+            <div class="flex flex-wrap justify-center gap-3">
+              <a
+                href="mailto:your@email.com"
+                class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path
+                    d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                  ></path></svg
+                >Email</a
+              ><a
+                href="https://github.com/AbdulJapar2025"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                  ></path>
+                  <path d="M9 18c-4.51 2-5-2-7-2"></path></svg
+                >GitHub</a
+              ><a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  ></path>
+                  <rect width="4" height="12" x="2" y="9"></rect>
+                  <circle cx="4" cy="4" r="2"></circle></svg
+                >LinkedIn</a
+              ><a
+                href="https://wa.me/62xxxxxxxxxxx"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-card border border-border text-sm text-muted-foreground hover:text-primary hover:border-primary/30 transition-all duration-200"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  ></path></svg
+                >WhatsApp</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="border-t border-border">
+      <div class="container mx-auto px-6 py-8 max-w-5xl">
+        <div
+          class="flex flex-col md:flex-row items-center justify-between gap-4"
+        >
+          <div class="text-sm text-muted-foreground">
+            &copy; 2026 Abdul Japar Sidik. All rights reserved.
+          </div>
+          <div class="flex items-center gap-1">
+            <a
+              href="https://github.com/AbdulJapar2025"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="p-2 text-muted-foreground hover:text-primary transition-colors"
+              aria-label="GitHub"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                ></path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a
+            ><a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="p-2 text-muted-foreground hover:text-primary transition-colors"
+              aria-label="LinkedIn"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <rect width="4" height="12" x="2" y="9"></rect>
+                <circle cx="4" cy="4" r="2"></circle></svg></a
+            ><a
+              href="mailto:your@email.com"
+              class="p-2 text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Email"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
