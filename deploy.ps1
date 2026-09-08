@@ -19,7 +19,7 @@ git init
 git add .
 git commit -m "Deploy to GitHub Pages"
 git branch -M gh-pages
-git remote add origin https://github.com/USERNAME/REPO.git  # Ganti dengan URL repo kamu
+git remote add origin https://github.com/AbdulJapar2025/portofolio.git
 git push -f origin gh-pages
 cd ..
 
