@@ -8,15 +8,13 @@ Personal portfolio yang menampilkan proyek dan kontribusi saya sebagai pengemban
 
 Saya adalah lulusan Teknik Informatika dengan semangat memecahkan masalah melalui teknologi. Setiap proyek yang saya kerjakan berawal dari permasalahan nyata — mulai dari transparansi data akademik hingga efisiensi rekrutmen kampus.
 
-## Project
+## Sections
 
-### STTI Career — Platform Rekrutmen Alumni & Industri
-
-Platform fullstack yang menjembatani kemitraan industri dan kampus, mempermudah industri mengelola pipeline rekrutmen sekaligus membantu alumni mengakses lowongan kerja secara terstruktur.
-
-### SIAKAD — Sistem Informasi Akademik
-
-Sistem informasi akademik berbasis web yang mengatasi permasalahan ketidakefisienan dan transparansi pada sistem lama, dengan integrasi Midtrans dan Moodle.
+- **Beranda** — Hero section dengan intro singkat
+- **Tentang** — Deskripsi diri dan keahlian
+- **Portfolio** — Daftar proyek yang telah dikerjakan
+- **Sertifikat** — Sertifikat dan pencapaian
+- **Kontak** — Formulir kontak dan informasi sosial media
 
 ## Contact
 
